@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+
+.bttn{
+    height: 10vmin;
+    width: 10vmin;
+    border: 20% ;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 4vmin;
+}
+
+.image-swiper{
+    display: flex;
+    justify-content: center;
+    padding: 7vmin;
+}
+.image-swiper img{
+    border-radius: 2vmin;
+    height: 50vmin;
+    border: 3vmin;
+    border-color: rgb(68, 0, 255);
+}
+
+.swipe-buttons{
+    justify-content: space-around;
+    display: flex;
+    padding: 7vmin;
+}
+
+.acceptbttn{
+    color: green;
+    border-color: green;
+}
+.acceptbttn:hover{
+    color: rgb(0, 161, 0);
+    border-color: rgb(0, 161, 0);
+}
+
+.rejectbttn{
+    color: red;
+    border-color: red;
+}
+
+.rejectbttn:hover{
+    color: rgb(255, 73, 73);
+    border-color: rgb(255, 73, 73);
+}
+
+body{
+    background-color: rgb(25, 0, 95);
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar{
+    height: 100vmin;
+    width: 8vmin;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(45, 0, 168);
+    outline: 2px rgb(51, 0, 192);
+    transition: width 200ms ease-in;
+}
+
+
+.navbar:hover{
+    transition: width 200ms ease-in;
+    width: 40vmin;
+}
+.navbar .navbar-icon-text {
+    height: 100vmin;
+    width: 20vmin;
+    color: rgb(25, 0, 95);
+    font-size: 4vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.navbar .navbar-icon-text i {
+    padding: 1.2vmin;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.navbar .navbar-icons i{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 2vmin;
+    font-size: 4vmin;
+}
+.navbar-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.mainpage {
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.swiper .desc {
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/fccc31ad8b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="mainpage">
+        <div class="navbar">
+            <div class="navbar-icons">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-x"></i>
+                <i class="fa-solid fa-face-smile"></i>
+
+
+            </div>
+            <div class="navbar-icon-text">
+                <i class="hamburbr">hamburbr</i>
+                <i id="acceptamt">0</i>
+                <i id="rejectamt">0</i>
+
+
+            </div>   
+        </div>
+        <div class="swiper">
+            <div class="image-swiper">
+                <img src="images/jpeg/legoheads.jpg" alt="focused-img" id="slide-image">  
+            </div>
+            <i class="desc" id="desc">images/jpeg/legoheads.jpg</i>
+            <div class="swipe-buttons">
+                <button class="rejectbttn bttn" onclick="reject();">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+                <button class="acceptbttn bttn" onclick="accept();">
+                    <i class="fa-solid fa-check"></i> 
+               </button>
+            </div>
+        </div>
+    </div>
+</body>
